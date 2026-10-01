@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
 
 <h:head>
     <title>SIGEC</title>
@@ -11,7 +12,14 @@
 
     <h1>SIGEC</h1>
 
-    <h:outputText value="Sistema Integrado de Gestão Comercial"/>
+    <p:panel header="Sistema Integrado de Gestão Comercial">
+        <h:outputText value="PrimeFaces 6 funcionando." />
+
+    <br/>
+
+        <p:commandButton value="Testar PrimeFaces"/>
+    </p:panel>
+
 </h:body>
 
 </html>
